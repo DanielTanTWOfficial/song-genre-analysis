@@ -3,9 +3,8 @@ Project to predict the genre of songs using data analysis and machine learning.
 
 ### Requirements to run
 Run the Jupyter Notebook files using the Anaconda version of Jupyter.
-In Anaconda Prompt, create a new environment with all the required packages installed with
-
-`conda create --name <env_name> --file requirements.txt`
+In Anaconda Prompt, create a new environment with all the required packages installed with:  
+`conda create --name <env_name> --file requirements.txt`  
 In the directory the files are located in, execute `jupyter notebook` to start the Jupyter Notebook instance.
 
 ### List of files (With descriptions)
