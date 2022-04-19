@@ -93,7 +93,11 @@ Here's what we learnt:
 After the Pattern Recognition and Machine Learning stages, we are now equipped with knowledge that can be applied to Business Use Cases involving retail store owners.  
 1. Increase foot traffic to stores by playing attractive music.  
 2. Create playlists congruent with the goods being sold in the store to create an immersive environment unique to your store.  
-3. Tailor music to influence customer behaviour within stores.  
+3. Tailor music to influence customer behaviour within stores.
+    * One study found that when background music was being played in the Women's Department, shoppers were more likely to make purchases and make more purchases compared to when foreground music was being played.
+    * The same study found that when foregorund music was being played in the Men's department, shoppers would spend more and make more purchases compared to when background music was being played.  
+    * In another study, higher consumer expenditure was observed when both Japanese-themed and Mexican-themed restaurants played a mixture of pop and the respective traditional music.
+    * The same study found that diners preferred music to be played in the background with lower volume as their priority was to hold conversations while dining.
 
 This opens up new research directions such as:
 * Using music tracks to affect employee outcomes at retail stores. :convenience_store:  
