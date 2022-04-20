@@ -2,9 +2,9 @@
 This is a project to predict the genre of songs using data analysis and machine learning.
 
 ## Collaborators  
-- Daniel Tan Teck Wee (@DanielTanTWOfficial)
-- Daryl Tang Jun Da (@Daryl-10)
-- Choo Zhen Hui (@wewechoo)
+- Daniel Tan Teck Wee ([@DanielTanTWOfficial](https://github.com/DanielTanTWOfficial))
+- Daryl Tang Jun Da ([@Daryl-10](https://github.com/Daryl-10))
+- Choo Zhen Hui ([@wewechoo](https://github.com/wewechoo))
 
 ## Contents  
 1. [Motivation](https://github.com/DanielTanTWOfficial/song-popularity-analysis/edit/main/README.md#motivation)
@@ -108,6 +108,7 @@ This opens up new research directions such as:
 
 ## Instructions to Run Code
 Run the Jupyter Notebook files using the Anaconda version of Jupyter.  
+![Set up demo](requirementsinstall.gif)  
 In Anaconda Prompt, create a new environment with all the required packages installed with:  
 `conda config --append channels conda-forge`  
 `conda config --append channels plotly`  
