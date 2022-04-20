@@ -107,8 +107,10 @@ This opens up new research directions such as:
 3. Applied the insights obtained from the Machine Learning model to real-world business use cases. :white_check_mark:  
 
 ## Instructions to Run Code
-Run the Jupyter Notebook files using the Anaconda version of Jupyter.
+Run the Jupyter Notebook files using the Anaconda version of Jupyter.  
 In Anaconda Prompt, create a new environment with all the required packages installed with:  
+`conda config --append channels conda-forge`  
+`conda config --append channels plotly`  
 `conda create --name <env_name> --file requirements.txt`  
 In the directory the files are located in, execute `jupyter notebook` to start the Jupyter Notebook instance.
 
