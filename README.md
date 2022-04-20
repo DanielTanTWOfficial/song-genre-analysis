@@ -26,18 +26,26 @@ This is a project to predict the genre of songs using data analysis and machine 
     - [Dataset Sources](https://github.com/DanielTanTWOfficial/song-genre-analysis#dataset-sources)
 14. [References :hearts:](https://github.com/DanielTanTWOfficial/song-genre-analysis#references-hearts)
 
+<p align="right">[<a href="https://github.com/DanielTanTWOfficial/song-genre-analysis#genre-prediction-project">Back to top</a>]</p>
+
 ## Motivation
 Music :musical_note: is all around us! :musical_note:  
 On Spotify alone, there are over 82 MILLION tracks on the platform :scream:, with over 5,818 unique song genres. :astonished:  
 Being able to identify the genres of all these different songs therefore is a neat data analytics :computer: challenge, and opens up a world of potential use cases.
 
+<p align="right">[<a href="https://github.com/DanielTanTWOfficial/song-genre-analysis#genre-prediction-project">Back to top</a>]</p>
+
 ## Sample Collection
 To start off, we need data :page_with_curl:, lots of it!  
 In this project, we went with the [Spotify Music Dataset](data/genre_songs.csv), which is a compilation of 41,099 songs, along with their genres (EDM, Latin, Pop, R&B, Rap and Rock) and music characteristics such as Danceability, Liveness, Energy and Speechiness, among others.
 
+<p align="right">[<a href="https://github.com/DanielTanTWOfficial/song-genre-analysis#genre-prediction-project">Back to top</a>]</p>
+
 ## Problem Statement  
 What are the defining characteristics of a particular genre that makes them unique? :triangular_flag_on_post:  
 Can we accurately predict the genre of songs based on these characteristics? :dart:  
+
+<p align="right">[<a href="https://github.com/DanielTanTWOfficial/song-genre-analysis#genre-prediction-project">Back to top</a>]</p>
 
 ## Exploratory Data Analysis/Pattern Recognition
 First, we performed [Exploratory Data Analysis](EDA%20-%20Characteristics%20of%20Genre.ipynb) on the data we had to gain a better understanding of the data, and to find patterns, if any, among the music characteristics.  
@@ -45,9 +53,13 @@ The goal was to discover:
     - What do the variables mean?
     - How do they help us in our analysis?
 
+<p align="right">[<a href="https://github.com/DanielTanTWOfficial/song-genre-analysis#genre-prediction-project">Back to top</a>]</p>
+
 ## Data Cleaning
 In order to prepare the data to be used for training :muscle: of our model, we had to perform :star: [Data Cleaning](Data%20Cleaning.ipynb) :star:.  
 This involved removing duplicate entries from the dataset.
+
+<p align="right">[<a href="https://github.com/DanielTanTWOfficial/song-genre-analysis#genre-prediction-project">Back to top</a>]</p>
 
 ## Initial Model Building & Testing
 As this is a multi-class classification problem, we chose to go with the Multi-Layer Perceptron Neural Network to predict the genres.  
@@ -60,12 +72,16 @@ The initial model's prediction accuracy was very bad, and as can be seen from th
 
 P.S. Run the file [Initial_Model_Test.ipynb](Initial_Model_Test.ipynb) to skip retraining the model from scratch!  
 
+<p align="right">[<a href="https://github.com/DanielTanTWOfficial/song-genre-analysis#genre-prediction-project">Back to top</a>]</p>
+
 ## 90 Percent Model Building & Testing
 To improve on the initial model, we modified the parameters of the model. We increased the number of neurons in each hidden layer and the number of hidden layers, increased the maximum iterations value for linear regression, and reduced the batch size to 10, in the hopes of better separating the songs of different genres.  
 
 These parameter modifications paid off, and the [new model](90pct_Model.ipynb) had a prediction accuracy of 90% on the train set and 91% on the test set, which was a great improvement from the previous model. However, we felt we could still do better, as the current model was still incorrectly classifying a lot of the genres.  
 
 P.S. Run the file [90pct_Model_Test.ipynb](90pct_Model_Test.ipynb) to skip retraining the model from scratch!  
+
+<p align="right">[<a href="https://github.com/DanielTanTWOfficial/song-genre-analysis#genre-prediction-project">Back to top</a>]</p>
 
 ## Final Model Building & Testing
 The problem with the 90 percent model was that it was incorrectly predicting many genres, which suggested that there were too many overlapping predictor variable values among the genres for the model to efficiently differentiate between different genres confidently.
@@ -78,6 +94,8 @@ To test the accuracy of the final model, we brought in a separate test dataset. 
 
 P.S. Run the file [Final_Model_Test.ipynb](Final_Model_Test.ipynb) to skip retraining the model from scratch! 
 
+<p align="right">[<a href="https://github.com/DanielTanTWOfficial/song-genre-analysis#genre-prediction-project">Back to top</a>]</p>
+
 ## Lessons From Model Development
 We went above and beyond the lessons learnt in class and gained new knowledge :books: through the model development process.  
 Here's what we learnt:  
@@ -88,6 +106,8 @@ Here's what we learnt:
 * We learnt the importance of batch sizes when dealing with stochastic gradient descent algorithms. :white_check_mark:  
 * We learnt that model parameters such as hidden layer sizes and max iterations have an impact on prediction accuracy. :white_check_mark:  
 * We learnt that although the model does a lot of the work, exploratory data analysis and pattern recognition to select the right predictor variables to feed the model is very important too! :white_check_mark:  
+
+<p align="right">[<a href="https://github.com/DanielTanTWOfficial/song-genre-analysis#genre-prediction-project">Back to top</a>]</p>
 
 ## Business Use Case
 After the Pattern Recognition and Machine Learning stages, we are now equipped with knowledge that can be applied to Business Use Cases involving retail store owners.  
@@ -101,10 +121,14 @@ This opens up new research directions such as:
 * Using music tracks to affect employee outcomes at retail stores. :convenience_store:  
 * Crafting playlists to achieve various business goals. :chart_with_upwards_trend:  
 
+<p align="right">[<a href="https://github.com/DanielTanTWOfficial/song-genre-analysis#genre-prediction-project">Back to top</a>]</p>
+
 ## Overall Learning Points
 1. Nuances in music can be identified with software performing Analog-to-Digital (ADC) conversion. :white_check_mark:  
 2. Picked up the use of Mult-Layer Perceptron Neural Network. :white_check_mark:  
 3. Applied the insights obtained from the Machine Learning model to real-world business use cases. :white_check_mark:  
+
+<p align="right">[<a href="https://github.com/DanielTanTWOfficial/song-genre-analysis#genre-prediction-project">Back to top</a>]</p>
 
 ## Instructions to Run Code
 Run the Jupyter Notebook files using the Anaconda version of Jupyter.  
@@ -114,6 +138,8 @@ In Anaconda Prompt, create a new environment with all the required packages inst
 `conda config --append channels plotly`  
 `conda create --name <env_name> --file requirements.txt`  
 In the directory the files are located in, execute `jupyter notebook` to start the Jupyter Notebook instance.
+
+<p align="right">[<a href="https://github.com/DanielTanTWOfficial/song-genre-analysis#genre-prediction-project">Back to top</a>]</p>
 
 ## List of files (With descriptions)
 
@@ -161,9 +187,13 @@ In the directory the files are located in, execute `jupyter notebook` to start t
 1. genres.csv (https://www.kaggle.com/code/akiboy96/spotify-song-popularity-genre-exploration/data?select=knn_songs.csv)
 2. genres_v2.csv (https://www.kaggle.com/mrmorj/dataset-of-songs-in-spotify?select=genres_v2.csv)
 
+<p align="right">[<a href="https://github.com/DanielTanTWOfficial/song-genre-analysis#genre-prediction-project">Back to top</a>]</p>
+
 ## References :hearts:
 1. About Spotify. Spotify. (2022, February 2). Retrieved March 29, 2022, from https://newsroom.spotify.com/company-info/  
 2. Mcdonald, G. (n.d.). Every noise at once. Every Noise at Once. Retrieved March 29, 2022, from https://everynoise.com/  
 3. Aakash. (2020, October 2). Spotify genre joined. Kaggle. Retrieved March 29, 2022, from https://www.kaggle.com/datasets/akiboy96/spotify-genre-joined  
 4. Yalch, R. F., & Spangenberg, E. (1993, January 1). >using store music for retail zoning: A field experiment: ACR. ACR North American Advances. Retrieved March 29, 2022, from https://www.acrwebsite.org/volumes/7531/volumes/v20/NA-20/full  
 5. Choo, B. J.-K., Cheok, T.-S., Gunasegaran, D., Wan, K.-S., Quek, Y.-S., Tan, C. S.-L., Quek, B.-K., & Gan, S. K.-E. (2020, September 21). The sound of music on the pocket: A study of background music in retail. Sage Journals. Retrieved March 29, 2022, from https://journals.sagepub.com.remotexs.ntu.edu.sg/doi/10.1177/0305735620958472  
+
+<p align="right">[<a href="https://github.com/DanielTanTWOfficial/song-genre-analysis#genre-prediction-project">Back to top</a>]</p>
