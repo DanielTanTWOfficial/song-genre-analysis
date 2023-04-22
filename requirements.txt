@@ -49,7 +49,7 @@ libtiff=4.2.0=hd0e1b90_0
 libwebp=1.2.0=h2bbff1b_0
 libxml2=2.9.12=h0ad7f3c_0
 libxslt=1.1.34=he774522_0
-lxml=4.7.1=py39h1985fb9_1
+lxml>=4.9.1
 lz4-c=1.9.3=h2bbff1b_1
 m2w64-gcc-libgfortran=5.3.0=6
 m2w64-gcc-libs=5.3.0=7
