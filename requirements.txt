@@ -125,7 +125,7 @@ vc=14.2=h21ff451_1
 vs2015_runtime=14.27.29016=h5e58377_2
 wcwidth=0.2.5=pyhd3eb1b0_0
 webencodings=0.5.1=py39haa95532_1
-wheel=0.37.1=pyhd3eb1b0_0
+wheel>=0.38.1
 widgetsnbextension=3.5.1=py39haa95532_0
 wincertstore=0.2=py39haa95532_2
 winpty=0.4.3=4
